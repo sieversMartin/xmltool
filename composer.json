@@ -1,0 +1,41 @@
+{
+  "name": "digicademy/xmltool",
+  "type": "typo3-cms-extension",
+  "description": "A flexible tool for XML imports into TYPO3",
+  "homepage": "https://www.adwmainz.de",
+  "authors": [
+    {
+        "name": "Torsten Schrade",
+        "email": "Torsten.Schrade@adwmainz.de",
+        "role": "Developer",
+        "homepage": "https://www.adwmainz.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "keywords": [
+    "TYPO3",
+    "XML",
+    "Digital Humanities"
+  ],
+  "support": {
+    "issues": "https://github.com/digicademy/xmltool/issues"
+  },
+  "version": "1.0.0",
+  "require": {
+    "typo3/cms-core": ">=9.5.0 || <=10.4.99",
+    "ext-pdo": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "ext-json": "*"
+  },
+  "replace": {
+    "typo3-ter/xmltool": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+        "Digicademy\\Xmltool\\": "Classes/"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-06-20T14:01:44Z" product-name="xmltool">
+		<header/>
+		<body>
+			<trans-unit id="xmlExtractImportTask.title" xml:space="preserve">
+				<source>XML-Tool Scheduler Task</source>
+			</trans-unit>
+			<trans-unit id="xmlExtractImportTask.description" xml:space="preserve">
+				<source>Checks pages for jobs from the XML-Tool and runs them</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob" xml:space="preserve">
+				<source>XML-Tool Schedulerjob</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type.I.1" xml:space="preserve">
+				<source>Batch extraction</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type.I.2" xml:space="preserve">
+				<source>Batch import</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.description" xml:space="preserve">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.configuration" xml:space="preserve">
+				<source>TypoScript configuration</source>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.set_import_job" xml:space="preserve">
+				<source>Execute XML import job after extraction</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

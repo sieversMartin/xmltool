@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="web_xmlimport">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>XML Import</source>
+				<target state="translated">XML Import</target>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tablabel">
+				<source>XML Import</source>
+				<target state="translated">XML Import</target>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tabdescr">
+				<source>Imports XML data into the TYPO3 database</source>
+				<target state="translated">Importiert Datensätze aus XML in die TYPO3 Datenbank</target>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab">
+				<source>XML Import</source>
+				<target state="translated">XML Import</target>
+			</trans-unit>
+			<trans-unit id="extract_function">
+				<source>Extraction &amp; Preview</source>
+				<target state="translated">Extraktion &amp; Voransicht</target>
+			</trans-unit>
+			<trans-unit id="batchimport_function">
+				<source>Batch import</source>
+				<target state="translated">Massenimport</target>
+			</trans-unit>
+			<trans-unit id="limit">
+				<source>Number of records</source>
+				<target state="translated">Anzahl Datensätze</target>
+			</trans-unit>
+			<trans-unit id="noLimit">
+				<source>All</source>
+				<target state="translated">Alle</target>
+			</trans-unit>
+			<trans-unit id="submitLegend">
+				<source>Submit XML file</source>
+				<target state="translated">XML-Datei auswählen</target>
+			</trans-unit>
+			<trans-unit id="selectFile">
+				<source>Choose one of the following files for import:</source>
+				<target state="translated">Eine der folgenden XML-Dateien verwenden</target>
+			</trans-unit>
+			<trans-unit id="urlFile">
+				<source>Enter URL from which to retrieve an XML file:</source>
+				<target state="translated">XML-Datei von folgender Webadresse laden</target>
+			</trans-unit>
+			<trans-unit id="directoryName">
+				<source>Folder: </source>
+				<target state="translated">Ordner: </target>
+			</trans-unit>
+			<trans-unit id="submitButton">
+				<source>Submit</source>
+				<target state="translated">Abschicken</target>
+			</trans-unit>
+			<trans-unit id="submitCorrection">
+				<source>OK</source>
+				<target state="translated">OK</target>
+			</trans-unit>
+			<trans-unit id="importButton">
+				<source>Import</source>
+				<target state="translated">Import</target>
+			</trans-unit>
+			<trans-unit id="reloadButton">
+				<source>Reload</source>
+				<target state="translated">Neu laden</target>
+			</trans-unit>
+			<trans-unit id="importSingle">
+				<source>Correct and import extracted XML records one by one</source>
+				<target state="translated">XML-Extraktion und Voransicht</target>
+			</trans-unit>
+			<trans-unit id="importBatch">
+				<source>Batch import extracted XML records</source>
+				<target state="translated">Massenimport extrahierter XML-Datensätze</target>
+			</trans-unit>
+			<trans-unit id="extractedRecords">
+				<source>Found records: </source>
+				<target state="translated">Gefundene Datensätze: </target>
+			</trans-unit>
+			<trans-unit id="editData">
+				<source>Edit</source>
+				<target state="translated">Bearbeiten</target>
+			</trans-unit>
+			<trans-unit id="remainingRecords">
+				<source>Remaining XML records: </source>
+				<target state="translated">Verbleibende XML-Datensätze: </target>
+			</trans-unit>
+			<trans-unit id="currentPosition">
+				<source>Current position: </source>
+				<target state="translated">Aktueller XML-Datensatz: </target>
+			</trans-unit>
+			<trans-unit id="importComplete">
+				<source>All records have been imported successfully.</source>
+				<target state="translated">Alle XML-Datensätze wurden erfolgreich importiert.</target>
+			</trans-unit>
+			<trans-unit id="standardFile">
+				<source>If you don't specify a file, the following standard file will be used: </source>
+				<target state="translated">Folgende XML-Datei bzw. Webadresse ist hinterlegt: </target>
+			</trans-unit>
+			<trans-unit id="fieldname">
+				<source>Fieldname</source>
+				<target state="translated">Feld</target>
+			</trans-unit>
+			<trans-unit id="value">
+				<source>Value</source>
+				<target state="translated">Wert</target>
+			</trans-unit>
+			<trans-unit id="correction">
+				<source>Correction</source>
+				<target state="translated">Korrektur</target>
+			</trans-unit>
+			<trans-unit id="prev">
+				<source>&amp;lt; Previous record</source>
+				<target state="translated">&amp;lt; Vorheriger XML-Datensatz</target>
+			</trans-unit>
+			<trans-unit id="next">
+				<source>Next record &amp;gt;</source>
+				<target state="translated">Nächster XML-Datensatz &amp;gt;</target>
+			</trans-unit>
+			<trans-unit id="begin">
+				<source>&amp;laquo; Begin</source>
+				<target state="translated">&amp;laquo; Stapelanfang</target>
+			</trans-unit>
+			<trans-unit id="end">
+				<source>End &amp;raquo;</source>
+				<target state="translated">Stapelende &amp;raquo;</target>
+			</trans-unit>
+			<trans-unit id="uploadFile">
+				<source>File upload</source>
+				<target state="translated">Datei hochladen</target>
+			</trans-unit>
+			<trans-unit id="record">
+				<source>Record</source>
+				<target state="translated">Datensatz</target>
+			</trans-unit>
+			<trans-unit id="pleasePerformExtractionFirst">
+				<source>You will first need to extract records from your XML.</source>
+				<target state="translated">Bitte nehmen Sie zuerst eine XML-Extraktion vor.</target>
+			</trans-unit>
+			<trans-unit id="goOn">
+				<source>Go on</source>
+				<target state="translated">Die extrahierten Datensätze betrachten</target>
+			</trans-unit>
+			<trans-unit id="wouldYouLike">
+				<source>Would you like to:</source>
+				<target state="translated">Möchten Sie: </target>
+			</trans-unit>
+			<trans-unit id="doBatchImport">
+				<source>Start!</source>
+				<target state="translated">Massenimport direkt starten</target>
+			</trans-unit>
+			<trans-unit id="scheduleForImport">
+				<source>Schedule for import</source>
+				<target state="translated">Massenimport via Planer aktivieren</target>
+			</trans-unit>
+			<trans-unit id="importJobScheduled">
+				<source>Import job scheduled for next run</source>
+				<target state="translated">Importjob angelegt für den nächsten Lauf des Planers</target>
+			</trans-unit>
+			<trans-unit id="scheduledJobActive">
+				<source>Page already contains a scheduled import job</source>
+				<target state="translated">Seite enthält bereits einen geplanten Importjob</target>
+			</trans-unit>
+			<trans-unit id="flushQueue">
+				<source>Flush the import queue</source>
+				<target state="translated">Den Import-Stapel leeren</target>
+			</trans-unit>
+			<trans-unit id="queueCount">
+				<source>There are %1s records in the import queue for this page that still need to be imported.</source>
+				<target state="translated">Es befinden sich %1s extrahierte XML-Datensätze auf dem Import-Stapel für diese Seite.</target>
+			</trans-unit>
+			<trans-unit id="batchImportSuccess">
+				<source>%1s records have been imported successfully.</source>
+				<target state="translated">%1s Datensätze wurden erfolgreich importiert.</target>
+			</trans-unit>
+			<trans-unit id="batchImportDeactivated">
+				<source>Batch import functionality is deactivated</source>
+				<target state="translated">Massenimport-Modul ist deaktiviert.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.idFirst">
+				<source>Please click on a page in the pagetree.</source>
+				<target state="translated">Bitte klicken Sie zuerst auf eine Seite im Seitenbaum.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.missingconfig">
+				<source>The module is not configured correctly for this page.</source>
+				<target state="translated">Das Modul ist für diese Seite nicht richtig konfiguriert.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.generalerror">
+				<source>Some basic error occured. Please check your module settings.</source>
+				<target state="translated">Ein grundlegender Fehler ist aufgetreten. Bitte überprüfen Sie die Moduleinstellungen.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.noData">
+				<source>Error while loading the XML data. Please check your file path and your XML.</source>
+				<target state="translated">Das XML für den Import konnte nicht geladen werden. Bitte prüfen Sie den Dateipfad und/oder Ihre XML Daten.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.parsingError">
+				<source>Some errors occured while parsing the XML file:</source>
+				<target state="translated">Es sind Fehler beim Parsing der XML Datei aufgetreten:</target>
+			</trans-unit>
+			<trans-unit id="errmsg.matchingError">
+				<source>>Some problem occured while matching the XML tags to the database fields:</source>
+				<target state="translated">Es gab ein Problem bei der Zusammenführung der Felddefinitionen für den Import:</target>
+			</trans-unit>
+			<trans-unit id="errmsg.noFile">
+				<source>No file was submitted an no standard file is defined.</source>
+				<target state="translated">Es wurde keine Datei ausgewählt und es gibt keine hinterlegte Standard-Datei.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.forbiddenFile">
+				<source>This type of file is not allowed!</source>
+				<target state="translated">Der angegebene Dateityp ist nicht erlaubt!</target>
+			</trans-unit>
+			<trans-unit id="errmsg.tableNotConfigured">
+				<source>Import configuration check: The following table is not configured in $TCA and will be removed - </source>
+				<target state="translated">Die folgende Import-Tabelle ist nicht im $TCA konfiguriert und wird entfernt - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.noFieldsConfigured">
+				<source>Import configuration check: The following table has no fields configured and will be removed - </source>
+				<target state="translated">Für die folgende Tabelle sind keine Import-Felder definiert, sie wird daher entfernt - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.noFieldMatch">
+				<source>None of the found XML tags matches the specified field list </source>
+				<target state="translated">Keines der XML-Felder passt auf die Feldnamen der Import-Tabelle </target>
+			</trans-unit>
+			<trans-unit id="errmsg.noValuesExtracted">
+				<source>No values could be extracted from the XML file: </source>
+				<target state="translated">Es konnten keine Werte aus der XML-Datei für die Felder der Import-Tabelle extrahiert werden: </target>
+			</trans-unit>
+			<trans-unit id="errmsg.fieldNotConfigured">
+				<source>Import configuration check: The following field is not configured in $TCA and will be removed - </source>
+				<target state="translated">Das folgende Import-Feld ist nicht im $TCA konfiguriert und wird entfernt - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.importConfigurationError">
+				<source>Your import configuration could not be validated. Please check it.</source>
+				<target state="translated">Die Modulkonfiguration für diese Seite konnte nicht validiert werden. Bitte überprüfen Sie Ihre Modulkonfiguration.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.noRecordNodeFound">
+				<source>Your xpath query did not return any nodes - </source>
+				<target state="translated">Ihre XPATH Abfrage lieferte keine Ergebnisse - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.entryNodeNotFound">
+				<source>The configured entry node for the XML extraction could not be found - </source>
+				<target state="translated">Der konfigurierte XML Einstiegsknoten für die Datenextraktion konnte nicht gefunden werden - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.xmlCouldNotBeConverted">
+				<source>The submitted XML could not be converted to simpleXML. Please check your data and your PHP configuration.</source>
+				<target state="translated">Das geladene XML konnte nicht nach simpleXML konvertiert werden. Bitte prüfen Sie Ihre XML Daten und Ihre PHP Konfiguration.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.identifierFieldError">
+				<source>The fields specified as identifiers are not configured in your field list and will be removed - </source>
+				<target state="translated">Die als Identifier angegebenen Feldnamen sind nicht in der Feldliste der Tabelle konfiguriert und werden entfernt - </target>
+			</trans-unit>
+			<trans-unit id="errmsg.cacheHasExpired">
+				<source>The cache lifetime for the import queue of the current page has expired.</source>
+				<target state="translated">Die Cachelaufzeit des Import-Stapels für die aktuelle Seite ist abgelaufen.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.tableNamesFieldValueContainsNoValue">
+				<source>The specified tabenames field contains no value.</source>
+				<target state="translated">Das angegebene Feld für die tablenames Funktionalität enthält keinen Wert</target>
+			</trans-unit>
+			<trans-unit id="errmsg.relatedRecordsDontExist">
+				<source>Either the local, foreign or both of the MM related records does not exist.</source>
+				<target state="translated">Entweder der lokale, der fremde oder beide MM verknüpften Datensätze existieren nicht.</target>
+			</trans-unit>
+			<trans-unit id="errmsg.relatedTablesNotInTCA">
+				<source>Eiter one or both MM related tables do not exist in $TCA.</source>
+				<target state="translated">Entweder eine oder beide MM verknüpften Tabellen sind nicht in der $TCA Konfiguration definiert.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

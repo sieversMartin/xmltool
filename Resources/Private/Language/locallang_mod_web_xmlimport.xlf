@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+	<file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="web_xmlimport">
+		<header/>
+		<body>
+			<trans-unit id="title">
+				<source>XML Import</source>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tablabel">
+				<source>XML Import</source>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tabdescr">
+				<source>Imports XML data into the TYPO3 database</source>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab">
+				<source>XML Import</source>
+			</trans-unit>
+			<trans-unit id="extract_function">
+				<source>Extraction &amp; Preview</source>
+			</trans-unit>
+			<trans-unit id="batchimport_function">
+				<source>Batch import</source>
+			</trans-unit>
+			<trans-unit id="limit">
+				<source>Number of records</source>
+			</trans-unit>
+			<trans-unit id="noLimit">
+				<source>All</source>
+			</trans-unit>
+			<trans-unit id="submitLegend">
+				<source>Submit XML file</source>
+			</trans-unit>
+			<trans-unit id="selectFile">
+				<source>Choose one of the following files for import:</source>
+			</trans-unit>
+			<trans-unit id="urlFile">
+				<source>Enter URL from which to retrieve an XML file:</source>
+			</trans-unit>
+			<trans-unit id="directoryName">
+				<source>Folder: </source>
+			</trans-unit>
+			<trans-unit id="submitButton">
+				<source>Submit</source>
+			</trans-unit>
+			<trans-unit id="submitCorrection">
+				<source>OK</source>
+			</trans-unit>
+			<trans-unit id="importButton">
+				<source>Import</source>
+			</trans-unit>
+			<trans-unit id="reloadButton">
+				<source>Reload</source>
+			</trans-unit>
+			<trans-unit id="importSingle">
+				<source>Correct and import extracted XML records one by one</source>
+			</trans-unit>
+			<trans-unit id="importBatch">
+				<source>Batch import extracted XML records</source>
+			</trans-unit>
+			<trans-unit id="extractedRecords">
+				<source>Found records: </source>
+			</trans-unit>
+			<trans-unit id="editData">
+				<source>Edit</source>
+			</trans-unit>
+			<trans-unit id="remainingRecords">
+				<source>Remaining XML records: </source>
+			</trans-unit>
+			<trans-unit id="currentPosition">
+				<source>Current position: </source>
+			</trans-unit>
+			<trans-unit id="importComplete">
+				<source>All records have been imported successfully.</source>
+			</trans-unit>
+			<trans-unit id="standardFile">
+				<source>If you don't specify a file, the following standard file will be used: </source>
+			</trans-unit>
+			<trans-unit id="fieldname">
+				<source>Fieldname</source>
+			</trans-unit>
+			<trans-unit id="value">
+				<source>Value</source>
+			</trans-unit>
+			<trans-unit id="correction">
+				<source>Correction</source>
+			</trans-unit>
+			<trans-unit id="prev">
+				<source>&amp;lt; Previous record</source>
+			</trans-unit>
+			<trans-unit id="next">
+				<source>Next record &amp;gt;</source>
+			</trans-unit>
+			<trans-unit id="begin">
+				<source>&amp;laquo; Begin</source>
+			</trans-unit>
+			<trans-unit id="end">
+				<source>End &amp;raquo;</source>
+			</trans-unit>
+			<trans-unit id="uploadFile">
+				<source>File upload</source>
+			</trans-unit>
+			<trans-unit id="record">
+				<source>Record</source>
+			</trans-unit>
+			<trans-unit id="pleasePerformExtractionFirst">
+				<source>You will first need to extract records from your XML.</source>
+			</trans-unit>
+			<trans-unit id="goOn">
+				<source>Go on</source>
+			</trans-unit>
+			<trans-unit id="wouldYouLike">
+				<source>Would you like to:</source>
+			</trans-unit>
+			<trans-unit id="doBatchImport">
+				<source>Start!</source>
+			</trans-unit>
+			<trans-unit id="scheduleForImport">
+				<source>Schedule for import</source>
+			</trans-unit>
+			<trans-unit id="importJobScheduled">
+				<source>Import job scheduled for next run</source>
+			</trans-unit>
+			<trans-unit id="scheduledJobActive">
+				<source>Page already contains a scheduled import job</source>
+			</trans-unit>
+			<trans-unit id="flushQueue">
+				<source>Flush the import queue</source>
+			</trans-unit>
+			<trans-unit id="queueCount">
+				<source>There are %1s records in the import queue for this page that still need to be imported.</source>
+			</trans-unit>
+			<trans-unit id="batchImportSuccess">
+				<source>%1s records have been imported successfully.</source>
+			</trans-unit>
+			<trans-unit id="batchImportDeactivated">
+				<source>Batch import functionality is deactivated</source>
+			</trans-unit>
+			<trans-unit id="errmsg.idFirst">
+				<source>Please click on a page in the pagetree.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.missingconfig">
+				<source>The module is not configured correctly for this page.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.generalerror">
+				<source>Some basic error occured. Please check your module settings.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.noFile">
+				<source>No file was submitted an no standard file is defined.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.noData">
+				<source>Error while loading the XML data. Please check your file path and your XML.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.parsingError">
+				<source>Some errors occured while parsing the XML file:</source>
+			</trans-unit>
+			<trans-unit id="errmsg.matchingError">
+				<source>>Some problem occured while matching the XML tags to the database fields:</source>
+			</trans-unit>
+			<trans-unit id="errmsg.forbiddenFile">
+				<source>This type of file is not allowed!</source>
+			</trans-unit>
+			<trans-unit id="errmsg.tableNotConfigured">
+				<source>Import configuration check: The following table is not configured in $TCA and will be removed - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.noFieldsConfigured">
+				<source>Import configuration check: The following table has no fields configured and will be removed - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.noFieldMatch">
+				<source>None of the found XML tags matches the specified field list </source>
+			</trans-unit>
+			<trans-unit id="errmsg.noValuesExtracted">
+				<source>No values could be extracted from the XML file: </source>
+			</trans-unit>
+			<trans-unit id="errmsg.fieldNotConfigured">
+				<source>Import configuration check: The following field is not configured in $TCA and will be removed - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.importConfigurationError">
+				<source>Your import configuration could not be validated. Please check it.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.noRecordNodeFound">
+				<source>Your xpath query did not return any nodes - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.entryNodeNotFound">
+				<source>The configured entry node for the XML extraction could not be found - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.xmlCouldNotBeConverted">
+				<source>The submitted XML could not be converted to simpleXML. Please check your data and your PHP configuration.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.identifierFieldError">
+				<source>The fields specified as identifiers are not configured in your field list and will be removed - </source>
+			</trans-unit>
+			<trans-unit id="errmsg.cacheHasExpired">
+				<source>The cache lifetime for the import queue of the current page has expired.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.tableNamesFieldValueContainsNoValue">
+				<source>The specified tabenames field contains no value</source>
+			</trans-unit>
+			<trans-unit id="errmsg.relatedRecordsDontExist">
+				<source>Either the local, foreign or both of the MM related records does not exist.</source>
+			</trans-unit>
+			<trans-unit id="errmsg.relatedTablesNotInTCA">
+				<source>Eiter one or both MM related tables do not exist in $TCA.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

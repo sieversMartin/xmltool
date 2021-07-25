@@ -1,0 +1,34 @@
+/* fullscreen RTE editing in preview mode not supported at the moment */
+#web_xmlimport a[href*="wizard_rte"] { display:none; }
+
+.file_selection div {
+	margin: 0 0 2em 1em;
+	border: 1px solid #C3C3C3;
+	padding: 0.8em 0.5em;
+}
+
+#upload_file {
+	padding: 0.5em;
+	height: auto;
+}
+
+.col1 {
+	width: 25%;
+}
+
+.col2 {
+	width: 65%;
+}
+
+.col3 {
+	width: 5%;
+}
+
+.web_xmlimport_table input {
+	width: 100% !important;
+}
+
+#web_xmlimport .btn {
+	display: inline-block;
+	margin-bottom: 1.5em;
+}

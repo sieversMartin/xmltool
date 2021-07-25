@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-06-20T14:01:44Z" product-name="xmltool">
+		<header/>
+		<body>
+			<trans-unit id="xmlExtractImportTask.title" xml:space="preserve">
+				<source>XML-Tool Scheduler Task</source>
+				<target state="translated">Zeitgesteuerte XML-Extraktion/Import</target>
+			</trans-unit>
+			<trans-unit id="xmlExtractImportTask.description" xml:space="preserve">
+				<source>Checks pages for jobs from the XML-Tool and runs them</source>
+				<target state="translated">Prüft Seiten auf vorhandene Extraktions- und/oder Importaufgaben des XML-Tool und führt diese aus</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob" xml:space="preserve">
+				<source>XML-Tool Schedulerjob</source>
+				<target state="translated">XML-Tool Schedulerjob</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type" xml:space="preserve">
+				<source>Type</source>
+				<target state="translated">Typ</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type.I.1" xml:space="preserve">
+				<source>Batch extraction</source>
+				<target state="translated">Massenextraktion</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.type.I.2" xml:space="preserve">
+				<source>Batch import</source>
+				<target state="translated">Massenimport</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.name" xml:space="preserve">
+				<source>Name</source>
+				<target state="translated">Name</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.description" xml:space="preserve">
+				<source>Description</source>
+				<target state="translated">Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.configuration" xml:space="preserve">
+				<source>TypoScript configuration</source>
+				<target state="translated">TypoScript Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="tx_xmltool_domain_model_schedulerjob.set_import_job" xml:space="preserve">
+				<source>Execute XML import job after extraction</source>
+				<target state="translated">Führe XML Importjob nach Abschluss der Extraktion aus</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
